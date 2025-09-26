@@ -1,0 +1,5 @@
+builds:
+  - main: ./cmd/rekor_monitor/
+    ignore:
+      - goos: windows
+        goarch: arm64
